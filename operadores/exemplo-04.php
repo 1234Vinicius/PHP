@@ -1,7 +1,9 @@
 <?php
 
-$a = 13;
-$b = 12;
+
+$a = 12;
+$b = 10;
+
 var_dump($a > $b);
 
 echo "<br>";
@@ -10,14 +12,10 @@ var_dump($a < $b);
 
 echo "<br>";
 
-var_dump($a == $b);
+var_dump($a != $b);
 
 echo "<br>";
 
 var_dump($a === $b);
 
-echo "<br>";
-
-
-var_dump($a != $b);
 ?>
